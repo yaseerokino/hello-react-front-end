@@ -5,7 +5,7 @@ const endpoint = 'http://localhost:3000/v1/';
 // asyncronous actions
 const fetchRandomGreeting = () => async (dispatch) => {
   try {
-    await fetch(`${endpoint}greetings/show`)
+    await fetch(`${endpoint}greetings`)
       .then((response) => response.json())
       .then((json) => {
         dispatch(actions.apiError(false));
