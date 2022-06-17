@@ -1,6 +1,6 @@
 import * as actions from './greetActions';
 
-const endpoint = 'http://localhost:3003/v1/';
+const endpoint = 'http://localhost:3000/v1/';
 
 // asyncronous actions
 const fetchRandomGreeting = () => async (dispatch) => {
